@@ -84,7 +84,7 @@ const config = {
         ],
         algolia: {
           appId: 'JXU273ACMI',
-          apiKey: '069738da9dec25b52ab8a9a564fb8fa9',
+          apiKey: '0583483fdf6b349208ebdc61ac6bea1a',
           indexName: 'histov_NAME',
           contextualSearch: true,
           searchParameters: {},
