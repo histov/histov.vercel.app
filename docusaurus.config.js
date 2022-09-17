@@ -65,9 +65,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: '四書/四書',
             position: 'left',
-            label: 'Tutorial',
+            label: '四書',
+          },
+          {
+            type: 'doc',
+            docId: '集/集',
+            position: 'left',
+            label: '集',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -76,6 +82,14 @@ const config = {
             position: 'right',
           },
         ],
+        algolia: {
+          appId: 'JXU273ACMI',
+          apiKey: '069738da9dec25b52ab8a9a564fb8fa9',
+          indexName: 'histov_NAME',
+          contextualSearch: true,
+          searchParameters: {},
+          searchPagePath: 'search',
+        },
       },
       footer: {
         style: 'dark',
