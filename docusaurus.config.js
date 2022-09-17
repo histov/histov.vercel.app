@@ -136,6 +136,9 @@ const config = {
 };
 
 module.exports = {
+  title: '한문원전정보',
+  url: 'https://histov.vercel.app',
+  baseUrl: '/',
   themeConfig: {
   
     algolia: {
