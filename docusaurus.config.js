@@ -147,7 +147,6 @@ module.exports = {
       apiKey: '069738da9dec25b52ab8a9a564fb8fa9',
       indexName: 'HISTOV',
       contextualSearch: true,
-      externalUrlRegex: 'external\\.com|domain\\.com',
       searchParameters: {},
       searchPagePath: 'search',
     },
