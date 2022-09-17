@@ -90,8 +90,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '四書',
+                to: '/docs/四書',
               },
             ],
           },
