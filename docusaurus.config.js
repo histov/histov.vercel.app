@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '한문원전정보',
   tagline: 'Dinosaurs are cool',
-  url: 'https://histov-5cxyzl4qp-histov.vercel.app',
+  url: 'https://histov.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
