@@ -132,23 +132,15 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        appId: 'JXU273ACMI',
+        apiKey: '069738da9dec25b52ab8a9a564fb8fa9',
+        indexName: 'histov_NAME',
+        contextualSearch: true,
+        searchParameters: {},
+        searchPagePath: 'search',
+      },
     }),
 };
 
-module.exports = {
-  title: '한문원전정보',
-  url: 'https://histov.vercel.app',
-  baseUrl: '/',
-  themeConfig: {
-  
-    algolia: {
-      appId: 'JXU273ACMI',
-      apiKey: '069738da9dec25b52ab8a9a564fb8fa9',
-      indexName: 'histov_NAME',
-      contextualSearch: true,
-      externalUrlRegex: 'external\\.com|domain\\.com',
-      searchParameters: {},
-      searchPagePath: 'search',
-    },
-  }
-}
+module.exports = config;
