@@ -142,7 +142,7 @@ module.exports = {
     algolia: {
       appId: 'JXU273ACMI',
       apiKey: '069738da9dec25b52ab8a9a564fb8fa9',
-      indexName: 'histov_NAMe',
+      indexName: 'histov_NAME',
       contextualSearch: true,
       searchParameters: {},
       searchPagePath: 'search',
