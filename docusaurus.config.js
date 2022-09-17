@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '한문원전정보',
+  title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://histov.vercel.app',
+  url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -65,15 +65,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: '四書/四書',
+            docId: 'intro',
             position: 'left',
-            label: '四書',
-          },
-          {
-            type: 'doc',
-            docId: '集/集',
-            position: 'left',
-            label: '集',
+            label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -82,14 +76,6 @@ const config = {
             position: 'right',
           },
         ],
-        algolia: {
-          appId: 'JXU273ACMI',
-          apiKey: '069738da9dec25b52ab8a9a564fb8fa9',
-          indexName: 'histov_NAME',
-          contextualSearch: true,
-          searchParameters: {},
-          searchPagePath: 'search',
-        },
       },
       footer: {
         style: 'dark',
@@ -98,8 +84,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: '四書',
-                to: '/docs/四書',
+                label: 'Tutorial',
+                to: '/docs/intro',
               },
             ],
           },
