@@ -136,9 +136,12 @@ const config = {
 };
 
 module.exports = {
-  // ...
+  title: '한문원전정보',
+  url: 'https://histov.vercel.app',
+  baseUrl: '/',
+
   themeConfig: {
-    // ...
+
     algolia: {
       appId: 'JXU273ACMI',
       apiKey: '069738da9dec25b52ab8a9a564fb8fa9',
