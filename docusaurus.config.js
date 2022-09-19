@@ -67,25 +67,25 @@ const config = {
             type: 'doc',
             docId: '經/經',
             position: 'left',
-            label: '경(經)',
+            label: '經',
           },
           {
             type: 'doc',
             docId: '史/史',
             position: 'left',
-            label: '사(史)',
+            label: '史',
           },
           {
             type: 'doc',
             docId: '子/子',
             position: 'left',
-            label: '자(子)',
+            label: '子',
           },
           {
             type: 'doc',
             docId: '集/集',
             position: 'left',
-            label: '집(集)',
+            label: '集',
           },
           {to: '/blog', label: '블로그(공사중)', position: 'left'},
           {
@@ -99,11 +99,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '분류',
             items: [
               {
                 label: '經',
                 to: '/docs/經',
+              },
+              {
+                label: '史',
+                to: '/docs/史',
+              },
+              {
+                label: '子',
+                to: '/docs/子',
+              },
+              {
+                label: '集',
+                to: '/docs/集',
               },
             ],
           },
