@@ -116,7 +116,7 @@ const config = {
               },
               {
                 label: '동양고전종합DB',
-                href: 'db.cyberseodang.or.kr',
+                href: 'https://db.cyberseodang.or.kr',
               },
             ],
           },
