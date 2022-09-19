@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: '한문원전정보',
+  tagline: '마크다운으로 원문자료 구축',
+  url: 'https://text.lovesoon.kr',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -23,8 +23,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ko',
+    locales: ['ko'],
   },
 
   presets: [
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '한문원전정보',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -65,19 +65,31 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: '四書/四書',
+            docId: '經/經',
             position: 'left',
-            label: '四書',
+            label: '경(經)',
+          },
+          {
+            type: 'doc',
+            docId: '史/史',
+            position: 'left',
+            label: '사(史)',
+          },
+          {
+            type: 'doc',
+            docId: '子/子',
+            position: 'left',
+            label: '자(子)',
           },
           {
             type: 'doc',
             docId: '集/集',
             position: 'left',
-            label: '集',
+            label: '집(集)',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '블로그(공사중)', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/histov/histov.vercel.app',
             label: 'GitHub',
             position: 'right',
           },
@@ -90,25 +102,21 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: '四書',
-                to: '/docs/四書',
+                label: '經',
+                to: '/docs/經',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '추천사이트',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '한국고전종합DB',
+                href: 'https://db.itkc.or.kr',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: '동양고전종합DB',
+                href: 'db.cyberseodang.or.kr',
               },
             ],
           },
@@ -121,12 +129,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/histov/histov.vercel.app',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 한문원전정보. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
