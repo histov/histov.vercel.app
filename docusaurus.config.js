@@ -91,7 +91,7 @@ const config = {
             position: 'left',
             label: '集',
           },
-          {to: '/blog', label: '블로그(공사중)', position: 'left'},
+          {to: '/blog', label: '블로그(공사중)', position: 'right'},
           {
             href: 'https://github.com/histov/histov.vercel.app',
             label: 'GitHub',
@@ -154,7 +154,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 한문원전정보. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 誠之者. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
