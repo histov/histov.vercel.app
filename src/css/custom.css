@@ -36,7 +36,7 @@
 @media screen and (max-width: 996px) {
   :root {
     --ifm-font-family-base: 'Noto Serif CJK KR';
-    --ifm-font-size-base: 20px;
+    --ifm-font-size-base: 22px;
   }
   article header h1 {
     font-size: 1.3rem !important;
