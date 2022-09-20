@@ -130,6 +130,10 @@ const config = {
                 label: '동양고전종합DB',
                 href: 'https://db.cyberseodang.or.kr',
               },
+              {
+                label: '한국사데이터베이스',
+                href: 'https://db.history.go.kr/',
+              },
             ],
           },
           {
