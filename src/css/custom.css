@@ -39,10 +39,10 @@
     --ifm-font-size-base: 20px;
   }
   article header h1 {
-    font-size: 1.3rem !important;
+    font-size: 1rem !important;
   }
   .hero .hero__title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -52,7 +52,7 @@
     --ifm-font-size-base: 21px;
   }
   article header h1 {
-    font-size: 1.3rem !important;
+    font-size: 1rem !important;
   }
 }
 
