@@ -30,7 +30,7 @@
 }
 @font-face {
   font-family: 'Noto Serif CJK KR';
-  src: url('../fonts/NotoSerifCJKkr-Medium.woff2') format('woff2');
+  src: url('https://text.lovesoon.kr/fonts/NotoSerifCJKkr-Medium.woff2') format('woff2');
 }
 
 @media screen and (max-width: 996px) {
