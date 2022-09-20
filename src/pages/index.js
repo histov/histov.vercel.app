@@ -6,6 +6,23 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
+import Head from '@docusaurus/Head';
+
+
+
+const MyAnalytics = () => (
+  <Head>
+  <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+  <script type="text/javascript">
+  if(!wcs_add) var wcs_add = {};
+  wcs_add["wa"] = "16710ff8ff007d0";
+  if(window.wcs) {
+   wcs_do();
+  }
+  </script>
+  </Head>
+);
+
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -39,3 +56,5 @@ export default function Home() {
     </Layout>
   );
 }
+
+

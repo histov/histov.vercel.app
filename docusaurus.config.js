@@ -4,21 +4,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-import React from 'react';
-import Head from '@docusaurus/Head';
-const MyAnalytics = () => (
-  <Head>
-  <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
-  <script type="text/javascript">
-  if(!wcs_add) var wcs_add = {};
-  wcs_add["wa"] = "16710ff8ff007d0";
-  if(window.wcs) {
-   wcs_do();
-  }
-  </script>
-  </Head>
-);
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '한문원전정보',
