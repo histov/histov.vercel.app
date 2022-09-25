@@ -62,6 +62,7 @@ const config = {
     ({
       navbar: {
         title: '한문원전정보',
+        hideOnScroll: true,
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
