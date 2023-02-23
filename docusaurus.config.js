@@ -162,9 +162,9 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       algolia: {
-        appId: 'JXU273ACMI',
-        apiKey: '069738da9dec25b52ab8a9a564fb8fa9',
-        indexName: 'histov_NAME',
+        appId: '0B1Z56XSM8',
+        apiKey: '000d6b7da46ce4dd3a7a0162ac79798b',
+        indexName: 'text-lovesoon',
         contextualSearch: true,
         searchParameters: {},
         searchPagePath: 'search',
